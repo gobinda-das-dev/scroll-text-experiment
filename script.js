@@ -40,7 +40,7 @@ function addWords() {
 
    words.forEach(word => {
       container.innerHTML += `
-         <a href="" class="text-[8vw] italic font-semibold capitalize will-change-transform origin-left opacity-[0.9] hover:opacity-100">${word}</a>
+         <a href="" class="text-[10vw] sm:text-[8vw] italic font-semibold capitalize will-change-transform origin-left opacity-[0.9] hover:opacity-100">${word}</a>
       `;
    })
 }
