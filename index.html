@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="stylesheet" href="font.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+   <main class="overflow-hidden">
+      <div class="text-container flex flex-col pl-[10vw] py-[10vh]"></div>
+
+      <div class="fixed right-[1vw] bottom-[1vw] grid place-items-center">
+         <svg class="overflow-visible -rotate-90" width="280" height="280">
+            <circle cx="140" cy="140" r="139.5" class="fill-transparent stroke-black/20"></circle>
+            <circle cx="140" cy="140" r="139.5" class="fill-transparent stroke-black progress" style="stroke-dasharray: 880; stroke-dashoffset: 880;"></circle>
+         </svg>
+
+         <div class="absolute text-7xl font-medium progress-monitor">0%</div>
+      </div>
+   </main>
+
+
+   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+   <script src="https://unpkg.com/lenis@1.1.3/dist/lenis.min.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>
